@@ -1,13 +1,11 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_webview_plugin (0.0.1):
-    - Flutter
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - path_provider (0.0.1):
     - Flutter
-  - share (0.5.2):
+  - screen (0.0.1):
     - Flutter
   - sqflite (0.0.1):
     - Flutter
@@ -24,16 +22,15 @@ PODS:
     - Flutter
   - webview_flutter (0.0.1):
     - Flutter
-  - youtube_api (0.2.1):
+  - webview_media (0.0.1):
     - Flutter
-  - youtube_player (0.0.1):
+  - youtube_api (0.2.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
-  - share (from `.symlinks/plugins/share/ios`)
+  - screen (from `.symlinks/plugins/screen/ios`)
   - sqflite (from `.symlinks/plugins/sqflite/ios`)
   - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
   - url_launcher_macos (from `.symlinks/plugins/url_launcher_macos/ios`)
@@ -41,8 +38,8 @@ DEPENDENCIES:
   - video_player (from `.symlinks/plugins/video_player/ios`)
   - video_player_web (from `.symlinks/plugins/video_player_web/ios`)
   - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+  - webview_media (from `.symlinks/plugins/webview_media/ios`)
   - youtube_api (from `.symlinks/plugins/youtube_api/ios`)
-  - youtube_player (from `.symlinks/plugins/youtube_player/ios`)
 
 SPEC REPOS:
   trunk:
@@ -51,12 +48,10 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  flutter_webview_plugin:
-    :path: ".symlinks/plugins/flutter_webview_plugin/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
-  share:
-    :path: ".symlinks/plugins/share/ios"
+  screen:
+    :path: ".symlinks/plugins/screen/ios"
   sqflite:
     :path: ".symlinks/plugins/sqflite/ios"
   url_launcher:
@@ -71,17 +66,16 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/video_player_web/ios"
   webview_flutter:
     :path: ".symlinks/plugins/webview_flutter/ios"
+  webview_media:
+    :path: ".symlinks/plugins/webview_media/ios"
   youtube_api:
     :path: ".symlinks/plugins/youtube_api/ios"
-  youtube_player:
-    :path: ".symlinks/plugins/youtube_player/ios"
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
-  share: bae0a282aab4483288913fc4dc0b935d4b491f2e
+  screen: abd91ca7bf3426e1cc3646d27e9b2358d6bf07b0
   sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
   url_launcher: a1c0cc845906122c4784c542523d8cacbded5626
   url_launcher_macos: fd7894421cd39320dce5f292fc99ea9270b2a313
@@ -89,8 +83,8 @@ SPEC CHECKSUMS:
   video_player: 69c5f029fac4ffe4fc8a85ea7f7b793709661549
   video_player_web: da8cadb8274ed4f8dbee8d7171b420dedd437ce7
   webview_flutter: bec7599de6bfbe8008a739aa3ebd7b364ea9d0cd
+  webview_media: 33604c2c1805f41bd0c6749c4d7de24b8cb4d81d
   youtube_api: 3e3c2faa0cf3f296204bcc93284cdb097f42cdd6
-  youtube_player: 66aa84ca8819ad8ef7305299c2ee31ccf42121a1
 
 PODFILE CHECKSUM: 3dbe063e9c90a5d7c9e4e76e70a821b9e2c1d271
 
