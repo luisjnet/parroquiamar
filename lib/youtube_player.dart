@@ -61,7 +61,6 @@ Widget build(BuildContext context){
                       ],),
       backgroundColor: Colors.blue[50],
       body: Column( 
-                mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[ Card(
                                         color:Colors.white,
@@ -91,7 +90,7 @@ Widget build(BuildContext context){
                                                 },
                                     thumbnailUrl: widget.thumbnail
                                     ),
-                                      new Padding(padding: EdgeInsets.only(bottom: 10)),
+                                      new Padding(padding: EdgeInsets.only(bottom: 20)),
                                       Text(widget.urlMedia,
                                       textAlign: TextAlign.center,
                                       style: new TextStyle(
@@ -100,15 +99,25 @@ Widget build(BuildContext context){
                                           color: Colors.lightBlueAccent,
                                            ),
                                           ),
-                                      new Padding(padding: EdgeInsets.only(bottom: 10)),
-                                      Container(
-                                        color:Colors.white,
+                                      new Padding(padding: EdgeInsets.only(bottom: 20)),
+                                      Container(                                        
                                         child:  Text(widget.description,
                                                   textAlign: TextAlign.center,
                                                   style: new TextStyle(
                                                       fontSize: 20.0,
                                                       fontWeight: FontWeight.normal,
                                                       color: Colors.blue[400],
+                                                      ),
+                                                ),
+                                          ),
+                                      new Padding(padding: EdgeInsets.only(bottom: 40)),
+                                      Container(                                        
+                                        child:  Text("Canal de Youtube\n" + widget.channelTitle + "\n(Sevilla)",
+                                                  textAlign: TextAlign.center,
+                                                  style: new TextStyle(
+                                                      fontSize: 15.0,
+                                                      fontWeight: FontWeight.bold,
+                                                      color: Colors.blue[800],
                                                       ),
                                                 ),
                                           )
